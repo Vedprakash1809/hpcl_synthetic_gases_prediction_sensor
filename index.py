@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error
 # Load the dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv('F:\\Downloads\\biofuel_data.csv')
+    return pd.read_csv('data.csv')
 
 data = load_data()
 
